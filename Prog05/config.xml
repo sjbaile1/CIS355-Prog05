@@ -1,0 +1,9 @@
+<config-file platform="android" parent="/manifest/application" mode="merge">
+    <plugin name="cordova-plugin-whitelist" source="npm"/>
+    <!-- Don't block any requests -->
+    <access origin="*" />
+    <!-- A wildcard can be used to whitelist the entire network,
+     over HTTP and HTTPS.
+     *NOT RECOMMENDED* -->
+    <allow-navigation href="*" />
+</config-file>
